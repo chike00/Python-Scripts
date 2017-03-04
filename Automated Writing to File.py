@@ -1,3 +1,7 @@
+"""
+This file uses the os module and shutil module to create files and move them into other folders which you can specify.
+"""
+
 import os
 import shutil
 
