@@ -19,9 +19,9 @@ class Automate():
         source = os.getcwd()
         file = os.listdir()
 
-        for i in range(1, 11):
+        for i in range(13):
             if file[i].endswith(".txt"):
-                shutil.move("Automated File 0{}.txt".format(i), "Automated Folder 0{}".format(i))
+                shutil.move("Automated File 0{}.txt".format(i-2), "Automated Folder 0{}".format(i-2))
             
 Automate.createFolders()
 Automate.moveFileToFolder()
