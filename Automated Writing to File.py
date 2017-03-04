@@ -6,11 +6,11 @@ import os
 import shutil
 
 for i in range(1, 11):
-    sesame = open("Automated File 0{}.txt".format(i), 'w')
-    sesame.write("Placeholder text")
-    sesame.close()
+    sesame = open("Automated File 0{}.txt".format(i), 'w') #opens a file, and will loop over making '..File 01", 02, 03...
+    sesame.write("Placeholder text") #writes "Placeholder text" into every file, 
+    sesame.close() #closes each file after use to avoid bugs and increase speed
 
-class Automate():
+class Automate(): #where my functions will be based
     def createFolders():
         for i in range(1, 11):
             os.mkdir("Automated Folder 0{}".format(i))
