@@ -10,3 +10,5 @@ The "Automated Writing to File.py" file uses the os and the shutil modules from 
 The "Automated Spreadsheet.py" file is able to accept arrays as parameters into a function and can write them into a spreadsheet such as Excel. This could perhaps be used (after improvement) to produce a spreadsheet with employee data [things like names, gender, salaries]. Who knows.
 
 The "Highway Speed Camera Automation.py" file makes use of Python lists and modules to simulate a speed camera feeding data into a system. It randomly generates speeds and licence plates which change everytime upon execution of the program. It uses a condition to check whether this generated speed exceed our set speed limit, and if so, it will write these offenders to a file on your computer.
+
+The "fibonacci.py" file takes 2 parameters, "first" and "limit". "first", being the first number that the user wishes to start their sequence with, and "limit" being the number of iterations which the user specifies. This will output a fibonacci sequence by making use of Python's dual-assignment.
