@@ -1,3 +1,6 @@
+param1 = input("First number")
+param2 = input("How many iterations")
+
 def fibonacci(first, limit):
     import sys
     try:
@@ -6,11 +9,13 @@ def fibonacci(first, limit):
         else:
             x = first
             y = first + 1
-            print(x)
             for i in range(limit):
                 print(x)
                 x, y = y, x+y
     except TypeError:
         sys.stdout.write("Make sure both your values are integers")
-        
-fibonacci("a", 10)
+
+param1 = int(param1)
+param2 = int(param2)        
+
+fibonacci(param1, param2)
