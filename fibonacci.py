@@ -1,5 +1,5 @@
-param1 = input("First number")
-param2 = input("How many iterations")
+param1 = input("First number: ")
+param2 = input("How many iterations: ")
 
 def fibonacci(first, limit):
     import sys
